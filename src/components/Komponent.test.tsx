@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { render, screen } from "../utils/test-utils";
-import Komponent from "./Komponent";
+import Pensjonskalkulator from "./Pensjonskalkulator";
 
 describe("Simple working test for Komponent", () => {
   it("has a text", () => {
-    render(<Komponent tekst="tekst" />);
+    render(<Pensjonskalkulator />);
     expect(screen.getByText(/tekst/)).toBeDefined();
   });
 });
