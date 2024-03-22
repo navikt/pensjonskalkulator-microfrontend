@@ -1,13 +1,8 @@
 import useTranslate from "./language/useTranslate.jsx";
-import Komponent from "./components/Komponent";
-import "@navikt/ds-css";
+import Pensjonskalkulator from "./components/Pensjonskalkulator";
 
 function App() {
-  return (
-    <section>
-      <Komponent tekst={useTranslate("microfrontendTitle")} />
-    </section>
-  );
+  return <Pensjonskalkulator />;
 }
 
 export default App;
