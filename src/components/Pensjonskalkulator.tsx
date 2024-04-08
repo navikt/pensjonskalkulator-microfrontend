@@ -6,7 +6,7 @@ import { logNavigereEvent } from "../utils/amplitude";
 
 const Pensjonskalkulator = () => {
   return (
-    <a className={styles.container} href="https://www.nav.no/pensjon/kalkulator/login" onClick={logNavigereEvent()}>
+    <a className={styles.container} href="https://www.nav.no/pensjon/kalkulator/login" onClick={logNavigereEvent}>
       <div className={styles.ikonOgTekstContainer}>
         <div>
           <Heading size="small" level="2">
