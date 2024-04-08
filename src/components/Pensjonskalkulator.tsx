@@ -2,6 +2,7 @@ import { BodyLong, Heading } from "@navikt/ds-react";
 import { ChevronRightIcon } from "@navikt/aksel-icons";
 import useTranslate from "../language/useTranslate";
 import styles from "./Komponent.module.css";
+import { logNavigereEvent } from "../utils/amplitude";
 
 const Pensjonskalkulator = () => {
   return (
