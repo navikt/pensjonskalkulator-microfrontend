@@ -1,8 +1,8 @@
 import { BodyLong, Heading } from "@navikt/ds-react";
 import { ChevronRightIcon } from "@navikt/aksel-icons";
 import useTranslate from "../language/useTranslate";
-import styles from "./Komponent.module.css";
 import { logNavigereEvent } from "../utils/amplitude";
+import styles from "./Pensjonskalkulator.module.css";
 
 const Pensjonskalkulator = () => {
   return (
