@@ -10,8 +10,6 @@ export const initAmplitude = () => {
   });
 };
 
-//TODO: komponent må fylles ut med et identifiserende navn for microfrontend
-//Default er at navnet på appen blir benyttet ved replace av "pensjonskalkulator-microfrontend"
 export const logNavigereEvent = () => {
   track("navigere", { komponent: "pensjonskalkulator-microfrontend" });
 };
