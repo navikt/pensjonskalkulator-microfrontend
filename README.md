@@ -4,7 +4,7 @@
 
 1. Bygg pensjonskalkulator-microfrontend ved å kjøre npm run build
 2. Start appen lokalt ved å kjøre npm run dev
-3. Appen nås på http://localhost:3000
+3. Appen nås på <http://localhost:3000>
 
 ## Amplitude
 
@@ -17,3 +17,9 @@ Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på git
 ## For NAV-ansatte
 
 Interne henvendelser kan sendes via Slack i kanalen #team-personbruker.
+
+## Hvor brukes den?
+
+Ligger inne på <https://www.nav.no/minside> og vises dersom person er over 40 år
+
+Dev: <https://www.ansatt.dev.nav.no/minside> (bruk dolly bruker som er over 40 år)
