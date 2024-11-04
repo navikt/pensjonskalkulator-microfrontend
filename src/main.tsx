@@ -11,5 +11,5 @@ root.render(
     <main>
       <Mikrofrontend />
     </main>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
